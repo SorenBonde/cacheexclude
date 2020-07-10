@@ -1,12 +1,8 @@
 <h1>Cache Exclude</h1>
 
-This is a rewrite from the original Drupal 7 module by Larry "Crell" Garfield.
+This is a port the original Drupal 7 module by Larry "Crell" Garfield.
 
-This module provides a simple way to exclude certain pages from being cached.  Sometimes
-you want all pages to be cached for anonymous users except for one or two pages that have 
-dynamic or random or rotating content.  If those pages are cached, the dynamic parts 
-cease to be dynamic.  This module allows an administrator to selectively exclude certain 
-paths from being cached so that dynamic content is actually dynamic.
+This module provides a simple way to exclude certain pages from being cached.  Sometimes you want all pages to be cached for anonymous users except for one or two pages that have dynamic or random or rotating content.  If those pages are cached, the dynamic parts cease to be dynamic.  This module allows an administrator to selectively exclude certain paths from being cached so that dynamic content is actually dynamic.
 
 <h2>INSTALLATION</h2>
 <ul>
