@@ -1,4 +1,4 @@
-ABOUT
+<h1>Cache Exclude</h1>
 
 This is a rewrite from the original Drupal 7 module by Larry "Crell" Garfield.
 
@@ -8,20 +8,13 @@ dynamic or random or rotating content.  If those pages are cached, the dynamic p
 cease to be dynamic.  This module allows an administrator to selectively exclude certain 
 paths from being cached so that dynamic content is actually dynamic.
 
-REQUIREMENTS
+<h2>INSTALLATION</h2>
+<ul>
+  <li>Install this module using the <a href="https://backdropcms.org/guide/modules" rel="nofollow">official Backdrop CMS instructions</a>.</li>
+</ul>
 
-- Backdrop 1.x
-
-INSTALLATION
-
-- Copy the cacheexclude directory to your modules directory.
-- Go to admin/modules and enable it.
-- Go to admin/config/system/cacheexclude and configure paths you want excluded from caching.
-
-AUTHOR AND CREDITS
-
-Larry "Crell" Garfield - Maintainer
-Palantir.net
-
-Matt "mbutcher" Butcher - Co-maintainer
-Palantir.net
+<h3>CREDITS</h3>
+<ul>
+  <li>Ported to Backdrop by <a href="https://github.com/dBonde">dBonde</a></li>
+  <li>Originally written by and maintained for Drupal by <a href="https://github.com/Crell">Larry "Crell" Garfield</a></li>
+</ul>
